@@ -62,6 +62,8 @@ Ao concluir este laboratório, fui capaz de usar o Systems Manager para:
 
 Uso do **Fleet Manager**, recurso do Systems Manager, para coletar informações do sistema operacional, aplicações e metadados de instâncias EC2 — permitindo entender rapidamente quais instâncias estão de acordo com as políticas de software definidas e quais precisam de atualização.
 
+![LISTA DE INVENTÁRIO](./imagem/lab169%20-%20tarefa%201.png)
+
 
 ### ✅ Tarefa 2 — Instalar um aplicativo personalizado usando o comando Executar
 
@@ -89,11 +91,13 @@ Uso do **Parameter Store** para armazenar, de forma segura e hierárquica, um pa
 
 Acesso à instância EC2 por meio do **Session Manager**, via shell interativo baseado em navegador — **sem abrir portas de entrada, sem host bastion e sem gerenciar chaves SSH**, mantendo logs totalmente auditáveis do acesso.
 
+![PAINEL DE WIDGETS](./imagem/tarefa4-lab169.png)
 ---
 
 ## ✅ Resultado final
 
 Instância gerenciada de ponta a ponta pelo **AWS Systems Manager**: inventariada, configurada remotamente, com parâmetros centralizados e acessível de forma segura — tudo sem abrir uma única porta SSH. 🎉
+
 
 ---
 
